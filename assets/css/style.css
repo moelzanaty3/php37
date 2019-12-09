@@ -1,0 +1,33 @@
+#content {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.para {
+    color: teal;
+}
+
+.para:nth-of-type(2) {
+    color: blue;
+}
+
+.btn,
+.button {
+    color: yellowgreen;
+    width: 100px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover,
+.button:hover {
+    background: white;
+    border: 1px solid black;
+}
+
+#sudo::after {
+    content: "Hi";
+}
