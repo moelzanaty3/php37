@@ -1,0 +1,234 @@
+body {
+  background: #e6ecf0;
+  color: #14171a;
+  font-size: 14px;
+  line-height: 20px;
+  overflow-y: scroll;
+  height: 100vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.cell {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.blue-section {
+  background: #1da1f2;
+  overflow: hidden;
+  position: relative;
+}
+
+.blue-section-content {
+  color: #fff;
+  max-width: 440px;
+  padding: 0 16px;
+  position: relative;
+}
+.text-item {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 48px auto;
+
+}
+.Icon {
+  background: transparent;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  position: relative;
+  font-size: 35px;
+  margin-right: 16px;
+}
+.twitterIcon-bird {
+  max-width: none;
+  position: absolute;
+  width: 130%;
+}
+
+/* White Area */
+
+/* Top Login */
+.login-area {
+  position: absolute;
+  top: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.login-form-input {
+  margin-right: 12px;
+  width: 210px;
+}
+input {
+  display: inline-block;
+  padding: 4px;
+  margin: 0;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: start;
+}
+.login-form input {
+  box-sizing: border-box;
+  margin-top: 12px;
+}
+.login-form .login-form-input input {
+  width: 210px;
+}
+@media only screen and (min-width: 1700px) {
+  .login-area {
+    left: calc(50% - 350px / 2 - 20px);
+    width: auto;
+  }
+  .secondary-login-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1023px), screen and (max-height: 660px) {
+  .login-area {
+    display: none;
+  }
+  .secondary-login-button {
+    display: inline-block;
+  }
+}
+a {
+  background: transparent;
+}
+.forgot {
+  color: #aab8c2;
+}
+.login-button {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 100px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+/*White Content*/
+.signup-block {
+  max-width: 350px;
+}
+
+.signup-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto;
+}
+.bird-icon {
+  width: 50px;
+}
+
+.secondary-login-button {
+  font-size: 12px;
+  line-height: 30px;
+  padding: 4px 12px;
+}
+
+.signup-title {
+  font-size: 27px;
+  line-height: 32px;
+}
+.login-signup-section {
+  margin-top: 48px;
+}
+
+.signup-subtitle {
+  color: #14171a;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 16px auto;
+}
+.signup-button {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: #fff;
+}
+.wide-button {
+  display: block;
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+
+.login-button:hover {
+  background-color: #eaf5fd;
+  color: #1da1f2;
+}
+.signup-button:hover {
+  background-color: #006dbf;
+  border-color: #006dbf;
+  color: #fff;
+}
+.footer {
+  widows: 100%;
+  bottom: 0;
+  position: static;
+  border-top: 1px solid #e6ecf0;
+  padding: 11px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.footer-list {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+.footer-item {
+  display: inline-block;
+  padding: 0 9px 0 9px;
+}
+.footer-item a {
+  color: #aab8c2;
+  font-size: 12px;
+  text-decoration: none;
+}
+.copyright {
+  color: #aab8c2;
+  font-size: 12px;
+}
+@media only screen and (max-width: 240px) {
+  .footer {
+    display: none;
+  }
+}
