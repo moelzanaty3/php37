@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+.text {
+    color: white;
+    background: purple;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border: 10px solid teal;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#text-1 {
+    background: teal;
+    border-color: purple;
+}
+
+#text-1:hover {
+    background: blueviolet;
+}
+
+p { 
+    background: pink !important;
+}
