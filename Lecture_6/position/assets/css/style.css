@@ -2,21 +2,23 @@
   box-sizing: border-box;
 }
 
-/* Parent */
-.parent {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
+body {
+    height: 10000px;
 }
-/* Child */
-.box {
+.parent {
     background: pink;
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    display: flex;
-    justify-content: ;
-    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.parent p {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.parent p span {
+    position: fixed;
 }
