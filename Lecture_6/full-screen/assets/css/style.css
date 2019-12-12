@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+.main  {
+    background-image: url("../images/bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.meta h1{
+    color: white;
+    font-size:50px ;
+}
+
+.content {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.content p {
+    color: teal;
+    margin: 40px 0;
+}
