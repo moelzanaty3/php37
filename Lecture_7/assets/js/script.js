@@ -1,52 +1,25 @@
-/*
-  write a program to calculate your grade / GPA
-  1. Declare a variable for grade 
-  2. check 
-     if grade < 0 || grade > 100
-            if grade < 0   => negative 
-            else grade > 100 => greater than 100
-     else 
-        if      grade < 50                   => fail
-        else if grade >= 50 && grad < 65    => good 
-        else if grade >= 65 && grad < 85    => very good 
-        else    grade >= 85                  => Excellent  
-*/
-// if(condition) {}
-// else if(condition) {}
-// else {}
+const name = "ahmed";
 
+// Loop 
+    // 1. Initialization 
+    // 2. Increment 
+    // 3. Body 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-const grade = 120;
-// grade less than 0 OR grade greater than 100
-if (grade < 0 || grade > 100) {
-  // negative
-  if (grade < 0) {
-    console.log('negative');
-  } else {
-    // number > 100
-    console.log('greater than 100');
-  }
-} else {
-  if (grade >= 0 && grade < 50) {
-    console.log('fail');
-  } else if (grade >= 50 && grade < 65) {
-    console.log('good');
-  } else if (grade >= 65 && grade < 85) {
-    console.log('very good');
-  } else if (grade >= 85 && grade <= 100) {
-    console.log('Excellent');
-  }
+let counter = 0;
+while(counter < 10) {
+    console.log("name");
+    counter = counter + 1; 
 }
+/*
+    counter => 0     -> name 
+    counter => 0 + 1 -> name
+    counter => 1 + 1 -> name
+    counter => 2 + 1 -> name
+    counter => 3 + 1 -> name
+    counter => 4 + 1 -> name
+    counter => 5 + 1 -> name
+    counter => 6 + 1 -> name
+    counter => 7 + 1 -> name
+    counter => 8 + 1 -> name
+    counter => 10 + 1 -> name
+*/
