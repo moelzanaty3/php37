@@ -1,25 +1,27 @@
-const name = "ahmed";
-
 // Loop 
     // 1. Initialization 
-    // 2. Increment 
+    // 2. condition 
     // 3. Body 
+    // 4. increment 
 
-let counter = 0;
-while(counter < 10) {
-    console.log("name");
-    counter = counter + 1; 
-}
+    // 2. condition 
+    // 3. Body 
+    // 4. increment 
+// for(initialization;condition;increment) {
+//     body
+// }
 /*
-    counter => 0     -> name 
-    counter => 0 + 1 -> name
-    counter => 1 + 1 -> name
-    counter => 2 + 1 -> name
-    counter => 3 + 1 -> name
-    counter => 4 + 1 -> name
-    counter => 5 + 1 -> name
-    counter => 6 + 1 -> name
-    counter => 7 + 1 -> name
-    counter => 8 + 1 -> name
-    counter => 10 + 1 -> name
+  Write some code that declares two variables, character and timesToRepeat.
+  Using a loop, repeat that character that many times and then console.log it.
+  Example, if I had character = 'f' and timesToRepeat = 5, it'd console.log
+  'fffff'
 */
+
+let character = 'f';
+let timesToRepeat = 5;
+let result = "";
+for(let i = 0; i < timesToRepeat; i++) {
+    result = result + character;
+    // result => "" + f => f 
+}
+console.log(result);
